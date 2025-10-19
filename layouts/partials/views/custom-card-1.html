@@ -1,7 +1,8 @@
 {{ $item := .item }} {{ $link := $item.RelPermalink }}
 
 <div class="card-simple custom-card-1">
-  {{ if $item.Params.image }}
+  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }} {{
+  with $resource }}
   <div class="card-image">
     <img src="{{ $item.Params.image }}" alt="{{ $item.Title }}" />
   </div>
