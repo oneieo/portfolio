@@ -1,6 +1,9 @@
 {{ $item := .item }} {{ $link := $item.RelPermalink }}
 
 <div class="card-horizontal custom-card-3">
+  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }} {{
+  if not $resource }} {{ $resource = ($item.Resources.ByType "image") | first }}
+  {{ end }} {{ with $resource }}
   <div class="card-row">
     {{ if $item.Params.image }}
     <div class="card-img-left">

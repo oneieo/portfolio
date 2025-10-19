@@ -1,6 +1,9 @@
 {{ $item := .item }} {{ $link := $item.RelPermalink }}
 
 <div class="card-modern custom-card-2">
+  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }} {{
+  if not $resource }} {{ $resource = ($item.Resources.ByType "image") | first }}
+  {{ end }} {{ with $resource }}
   <a href="{{ $link }}" class="card-link">
     {{ if $item.Params.image }}
     <div class="card-thumbnail">
