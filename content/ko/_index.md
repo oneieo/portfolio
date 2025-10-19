@@ -22,7 +22,7 @@ sections:
       title: Latest Posts
       filters:
         folders:
-          - post
+          - project
       count: 3
     design:
       view: custom-card-1
