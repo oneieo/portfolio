@@ -5,9 +5,38 @@
 # Default language
 en:
   languageCode: en-us
+  contentDir: content/en
+  title: Jiwon Seon's Portfolio
+  params:
+    description: This is Jiwon Seon's Portfolio.
+  weight: 2
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
+ko:
+  languageCode: ko-kr
+  contentDir: content/ko
+  title: 선지원 포트폴리오
+  weight: 1
+  params:
+    description: 전북대 선지원 포트폴리오 페이지입니다.
+  menu:
+    main:
+      - name: 소개
+        url: /
+        weight: 10
+      - name: 프로젝트
+        url: projects/
+        weight: 20
+      - name: 경험
+        url: experience/
+        weight: 30
+      - name: 수상
+        url: awards/
+        weight: 50
+      - name: 연락처
+        url: contact/
+        weight: 60
 # Uncomment the lines below to configure your website in a second language.
 #zh:
 #  languageCode: zh-Hans
