@@ -25,7 +25,7 @@ sections:
           align: center
           background:
             image:
-              filename: slide1.jpg
+              filename: unsplash1.jpg
               filters:
                 brightness: 0.7
             position: center
@@ -36,7 +36,7 @@ sections:
           align: center
           background:
             image:
-              filename: slide2.jpg
+              filename: unsplash2.jpg
               filters:
                 brightness: 0.7
             position: center
@@ -47,7 +47,7 @@ sections:
           align: center
           background:
             image:
-              filename: slide3.jpg
+              filename: unsplash3.jpg
               filters:
                 brightness: 0.7
             position: center
