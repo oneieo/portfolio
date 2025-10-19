@@ -26,7 +26,7 @@ sections:
       count: 3
     design:
       view: custom-card-1
-      columns: "2"
+      columns: "1"
 
   - block: collection
     content:
@@ -36,7 +36,7 @@ sections:
           - project
       count: 3
     design:
-      view: compact
+      view: custom-card-2
       columns: "1"
 
   - block: experience
