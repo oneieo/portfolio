@@ -52,13 +52,48 @@
   }
 }
 
-.custom-hover-btn {
-  transition: all 0.3s ease-in-out;
+.portfolio-download-btn {
+  margin: 20px 0;
 
-  &:hover {
-    background-color: darken($primary-color, 10%) !important;
-    border-color: darken($primary-color, 10%) !important;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+
+    &:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+
+      i {
+        animation: bounce 0.6s ease infinite;
+      }
+    }
+
+    &:active {
+      transform: translateY(-1px) scale(1.02);
+    }
+
+    i {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
   }
 }

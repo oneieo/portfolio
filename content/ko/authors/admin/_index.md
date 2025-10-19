@@ -95,4 +95,9 @@ GTEP 사업단 요원으로 활동하며 대한민국 중소기업의 수출 활
 
 <!-- {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Jiwon_Portfolio.pdf" "newtab" >}}포트폴리오 다운받기{{< /staticref >}} -->
 
-{{< button text="포트폴리오 다운받기" link="uploads/Jiwon_Portfolio.pdf" icon="download" icon_pack="fas" target="newtab" class="btn-primary custom-hover-btn" >}}
+<div class="portfolio-download-btn">
+  <a href="/uploads/Jiwon_Portfolio.pdf" target="_blank" rel="noopener">
+    <i class="fas fa-download"></i>
+    <span>포트폴리오 다운받기</span>
+  </a>
+</div>
