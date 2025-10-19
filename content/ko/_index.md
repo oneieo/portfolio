@@ -15,7 +15,7 @@ sections:
     design:
       background:
         color: #FFDCE9
-        text_color_light: true
+        text_color_light: false
 
   - block: experience
     content:
