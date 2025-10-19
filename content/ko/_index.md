@@ -37,7 +37,7 @@ sections:
       count: 3
     design:
       view: custom-card-2
-      columns: "1"
+      columns: "2"
 
   - block: experience
     content:
