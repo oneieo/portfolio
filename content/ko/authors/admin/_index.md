@@ -43,19 +43,17 @@ bio: My research interests include distributed robotics, mobile computing and pr
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
-    url: "mailto:boywonderof@jbnu.ac.kr"
-    label: E-mail Me
-  # - icon: brands/x
-  #   url: https://x.com/BuildLore
-  - icon: brands/github
-    url: https://github.com/oneieo
-    label: Github
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/%EC%A7%80%EC%9B%90-%EC%84%A0-467467366/
-    label: Linkedin
-  - icon: brands/instagram
-    url: https://www.instagram.com/oneieo
-    label: Instagram
+    icon_pack: fas
+    link: "mailto:boywonderof@jbnu.ac.kr"
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/%EC%A7%80%EC%9B%90-%EC%84%A0-467467366/
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/oneieo
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/oneieo
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
