@@ -8,6 +8,22 @@ superuser: true
 # Role/position
 role: 대학생
 
+summary: 전북대학교 무역학과 컴퓨터공학 전공 선지원
+
+tags:
+  - 전북대학교
+  - 선지원
+  - 무역학과
+  - 컴퓨터공학과
+  - JBNU
+
+keywords:
+  - 선지원
+  - 전북대학교
+  - 전북대
+  - JBNU
+  - Jeonbuk National University
+
 # Status emoji
 status:
   icon: ♥️
@@ -24,6 +40,10 @@ bio: 무역학과 컴퓨터공학을 전공하며 글로벌 비즈니스와 기�
 #- Artificial Intelligence
 #- Computational Linguistics
 #- Information Retrieval
+
+organizations:
+  - name: 전북대학교
+    url: "https://www.jbnu.ac.kr/"
 
 education:
   courses:
