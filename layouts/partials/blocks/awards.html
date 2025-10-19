@@ -5,15 +5,16 @@ $block.content.username | default "admin" }} {{ $author_path := printf
 <div
   class="col-12 {{if $block.design.css_class}}{{$block.design.css_class}}{{end}}"
 >
-  {{with $block.content.title}}
-  <h2 class="mb-4">{{. | markdownify | emojify}}</h2>
-  {{end}} {{with $block.content.subtitle}}
-  <p class="mb-4">{{. | markdownify | emojify}}</p>
-  {{end}}
+  <div class="section-heading text-center mb-5">
+    {{with $block.content.title}}
+    <h2 class="section-title">{{. | markdownify | emojify}}</h2>
+    {{end}} {{with $block.content.subtitle}}
+    <p class="section-subtitle">{{. | markdownify | emojify}}</p>
+    {{end}}
+  </div>
 
   <div class="awards-container">
-    {{/* author의 awards 데이터 사용 */}} {{with $author.Params.awards}} {{range
-    .}}
+    {{with $author.Params.awards}} {{range .}}
     <div class="award-item">
       <div class="award-icon">
         {{with .icon}}
@@ -42,7 +43,7 @@ $block.content.username | default "admin" }} {{ $author_path := printf
       </div>
     </div>
     {{end}} {{else}}
-    <p>수상 경력이 없습니다.</p>
+    <p class="text-center text-muted">수상 경력이 없습니다.</p>
     {{end}}
   </div>
 </div>

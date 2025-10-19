@@ -128,7 +128,7 @@ sections:
 
   - block: awards
     content:
-      title: 수상경력
+      title: 수상
       username: admin
     design:
       columns: "2"
