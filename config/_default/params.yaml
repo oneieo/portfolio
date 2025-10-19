@@ -97,8 +97,8 @@ features:
       index_name: ""
       show_logo: false
   map:
-    provider: "osm"
-    api_key: ""
+    provider: "google"
+    api_key: "AIzaSyBAQUe9_qXe91z8pYphz-N3tnH8eB4gcBs"
     zoom: 15
 
 extensions:
