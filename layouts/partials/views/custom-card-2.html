@@ -3,11 +3,12 @@
 <div class="card-modern custom-card-2">
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }} {{
   if not $resource }} {{ $resource = ($item.Resources.ByType "image") | first }}
-  {{ end }} {{ with $resource }}
+  {{ end }}
+
   <a href="{{ $link }}" class="card-link">
-    {{ if $item.Params.image }}
+    {{ with $resource }}
     <div class="card-thumbnail">
-      <img src="{{ $item.Params.image }}" alt="{{ $item.Title }}" />
+      <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" loading="lazy" />
       <div class="card-overlay">
         <span>View More →</span>
       </div>
