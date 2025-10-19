@@ -8,5 +8,5 @@ tags:
   - React Query
   - Tailwind CSS
 date: 2021-08-21
-external_link: https://github.com/oneieo/Ai-todo-app
+external_link: https://ai-todo-app-beta.vercel.app/
 ---
