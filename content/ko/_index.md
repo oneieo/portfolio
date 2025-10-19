@@ -126,12 +126,16 @@ sections:
       view: showcase
       columns: "1"
 
+  - block: markdown
+    content:
+      title: ""
+      text: |
+        # 🏆 수상
+
   - block: awards
     content:
       title: 수상
       username: admin
-      text: |
-        ## 🏆 수상
     design:
       columns: "2"
 
