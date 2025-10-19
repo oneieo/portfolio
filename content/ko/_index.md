@@ -19,10 +19,10 @@ sections:
 
   - block: collection
     content:
-      title: Latest Posts
+      title: 경험
       filters:
         folders:
-          - project
+          - exp_gtep
       count: 3
     design:
       view: custom-card-1
