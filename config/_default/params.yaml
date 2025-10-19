@@ -18,15 +18,15 @@ marketing:
     site_type: Person
     local_business_type: ""
     org_name: ""
-    description: "A highly-customizable Hugo blog theme powered by Wowchemy website builder."
-    twitter: "GetResearchDev"
+    description: "전북대 컴퓨터인공지능학과 선지원 포트폴리오 | 프론트엔드 개발자"
+    twitter: "oneieo"
   analytics:
     google_analytics: ""
     baidu_tongji: ""
     google_tag_manager: ""
     microsoft_clarity: ""
   verification:
-    google: ""
+    google: "y5vYwXKV0aYTkJpEd0n9WOqAzNGrOVZ05zoIITLKdPw"
     baidu: ""
 
 # Site header
