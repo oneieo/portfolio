@@ -14,7 +14,7 @@ sections:
       username: admin
     design:
       background:
-        color: "#FFEBF2"
+        color: "#FFF3F7"
         text_color_light: false
 
   - block: collection
@@ -28,7 +28,6 @@ sections:
       view: custom-card-1
       columns: "2"
 
-  # 두 번째 섹션 - custom-card-2 사용
   - block: collection
     content:
       title: Featured Projects

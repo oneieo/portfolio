@@ -1,0 +1,50 @@
+{{ $item := .item }} {{ $link := $item.RelPermalink }}
+
+<div class="card-horizontal custom-card-3">
+  <div class="card-row">
+    {{ if $item.Params.image }}
+    <div class="card-img-left">
+      <a href="{{ $link }}">
+        <img src="{{ $item.Params.image }}" alt="{{ $item.Title }}" />
+      </a>
+    </div>
+    {{ end }}
+
+    <div class="card-content-right">
+      {{ with $item.Date }}
+      <div class="card-meta">
+        <span class="card-date">
+          <i class="fas fa-calendar"></i> {{ .Format "Jan 02, 2006" }}
+        </span>
+        {{ with $item.Params.reading_time }}
+        <span class="card-reading-time">
+          <i class="fas fa-clock"></i> {{ . }} min read
+        </span>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      <h3 class="card-title">
+        <a href="{{ $link }}">{{ $item.Title }}</a>
+      </h3>
+
+      {{ with $item.Params.summary }}
+      <p class="card-excerpt">{{ . | truncate 150 }}</p>
+      {{ end }}
+
+      <div class="card-footer">
+        {{ with $item.Params.tags }}
+        <div class="card-tags">
+          {{ range first 3 . }}
+          <span class="tag">#{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+
+        <a href="{{ $link }}" class="card-read-more">
+          Read More <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
