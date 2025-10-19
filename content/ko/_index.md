@@ -126,6 +126,13 @@ sections:
       view: showcase
       columns: "1"
 
+  - block: awards
+    content:
+      title: 수상경력
+      username: admin
+    design:
+      columns: "2"
+
   - block: contact
     id: contact
     content:

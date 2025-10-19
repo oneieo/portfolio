@@ -1,0 +1,48 @@
+{{ $page := .page }} {{ $block := .block }} {{ $username :=
+$block.content.username | default "admin" }} {{ $author_path := printf
+"authors/%s" $username }} {{ $author := site.GetPage $author_path }}
+
+<div
+  class="col-12 {{if $block.design.css_class}}{{$block.design.css_class}}{{end}}"
+>
+  {{with $block.content.title}}
+  <h2 class="mb-4">{{. | markdownify | emojify}}</h2>
+  {{end}} {{with $block.content.subtitle}}
+  <p class="mb-4">{{. | markdownify | emojify}}</p>
+  {{end}}
+
+  <div class="awards-container">
+    {{/* author의 awards 데이터 사용 */}} {{with $author.Params.awards}} {{range
+    .}}
+    <div class="award-item">
+      <div class="award-icon">
+        {{with .icon}}
+        <i class="fas fa-{{.}}"></i>
+        {{end}}
+      </div>
+
+      <div class="award-content">
+        <h3 class="award-title">{{.title | markdownify}}</h3>
+
+        <div class="award-meta">
+          {{with .date}}
+          <span class="award-date">
+            <i class="fas fa-calendar"></i> {{.}}
+          </span>
+          {{end}} {{with .awarder}}
+          <span class="award-awarder">
+            <i class="fas fa-award"></i> {{.}}
+          </span>
+          {{end}}
+        </div>
+
+        {{with .summary}}
+        <div class="award-summary">{{. | markdownify}}</div>
+        {{end}}
+      </div>
+    </div>
+    {{end}} {{else}}
+    <p>수상 경력이 없습니다.</p>
+    {{end}}
+  </div>
+</div>
