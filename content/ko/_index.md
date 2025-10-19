@@ -113,16 +113,15 @@ sections:
       email: boywonderof@jbnu.ac.kr
       phone: ""
       address:
-        street: 567 Baekje-daero, Deokjin-gu
-        city: Jeonju
-        region: Jeollabuk-do
+        street: 덕진구 백제대로 567
+        city: 전주시
+        region: 전북특별자치도
         postcode: "54896"
-        country: South Korea
+        country: 대한민국
         country_code: KR
       coordinates:
         latitude: "35.8468"
         longitude: "127.1294"
-      directions: 전북대학교 정문에서 도보 5분
       contact_links:
         - icon: linkedin
           icon_pack: fab
