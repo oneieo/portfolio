@@ -14,37 +14,17 @@ sections:
       username: admin
     design:
       background:
-        color: yellow
+        color: "#FFDCE9"
         text_color_light: false
 
   - block: experience
     content:
-      title: 학력
-      date_format: Jan 2006
-      items:
-        - title: PhD in Artificial Intelligence
-          company: Stanford University
-          company_url: "https://www.stanford.edu"
-          location: California
-          date_start: "2010-09-01"
-          date_end: "2012-06-01"
-          description: ""
-        - title: MEng in Artificial Intelligence
-          company: Massachusetts Institute of Technology
-          company_url: "https://www.mit.edu"
-          location: Massachusetts
-          date_start: "2008-09-01"
-          date_end: "2009-06-01"
-          description: ""
-        - title: BSc in Artificial Intelligence
-          company: Massachusetts Institute of Technology
-          company_url: "https://www.mit.edu"
-          location: Massachusetts
-          date_start: "2005-09-01"
-          date_end: "2008-06-01"
-          description: ""
+      username: admin
     design:
-      columns: "2"
+      # Hugo date format
+      date_format: "January 2006"
+      # Education or Experience section first?
+      is_education_first: false
 
   - block: collection
     id: projects
