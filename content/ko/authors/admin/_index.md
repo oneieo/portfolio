@@ -43,17 +43,6 @@ bio: My research interests include distributed robotics, mobile computing and pr
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
-    icon_pack: fas
-    link: "about/#contact" # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/wowchemy
-  - icon: instagram
-    icon_pack: fab
-    link: https://instagram.com/geocushen
-
-profiles:
-  - icon: at-symbol
     url: "mailto:boywonderof@jbnu.ac.kr"
     label: E-mail Me
   # - icon: brands/x
