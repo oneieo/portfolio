@@ -37,7 +37,7 @@ sections:
           - project
       count: 3
     design:
-      view: custom-card-2
+      view: compact
       columns: "2"
 
   - block: experience
