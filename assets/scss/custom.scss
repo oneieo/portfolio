@@ -105,6 +105,7 @@
 
     &:hover {
       transform: translateY(-3px) scale(1.05);
+      background: linear-gradient(135deg, #ff7aa9 0%, #ff4687 100%);
       box-shadow: 0 6px 20px #da4b7d;
 
       i {
