@@ -1,0 +1,22 @@
+{{/* layouts/partials/views/card/custom-card-1.html */}} {{ $item := .item }} {{
+$link := $item.RelPermalink }}
+
+<div class="card-simple custom-card-1">
+  {{ if $item.Params.image }}
+  <div class="card-image">
+    <img src="{{ $item.Params.image }}" alt="{{ $item.Title }}" />
+  </div>
+  {{ end }}
+
+  <div class="card-content">
+    <h3>
+      <a href="{{ $link }}">{{ $item.Title }}</a>
+    </h3>
+
+    {{ with $item.Params.summary }}
+    <p class="card-text">{{ . }}</p>
+    {{ end }} {{ with $item.Date }}
+    <div class="card-date">{{ .Format "2006-01-02" }}</div>
+    {{ end }}
+  </div>
+</div>
