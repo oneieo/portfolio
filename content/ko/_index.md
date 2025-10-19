@@ -26,7 +26,7 @@ sections:
       count: 3
     design:
       view: custom-card-1
-      columns: "3"
+      columns: "2"
 
   - block: collection
     content:
