@@ -38,7 +38,7 @@ sections:
       count: 3
     design:
       view: compact
-      columns: "2"
+      columns: "1"
 
   - block: experience
     content:
