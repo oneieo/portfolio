@@ -20,6 +20,10 @@ status:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
+button:
+  text: 포트폴리오 다운받기
+  url: uploads/Jiwon_Portfolio.pdf
+
 #interests:
 #- Artificial Intelligence
 #- Computational Linguistics
