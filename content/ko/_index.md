@@ -104,20 +104,38 @@ sections:
       view: showcase
       columns: "1"
 
-  - block: contact
-    id: contact
-    content:
-      title: 연락처
-      email: boywonderof@jbnu.ac.kr
-      address:
-        city: Jeonju
-        region: Jeollabuk-do
-        country: South Korea
-      contact_links:
-        - icon: linkedin
-          icon_pack: fab
-          name: LinkedIn
-          link: "https://www.linkedin.com/in/%EC%A7%80%EC%9B%90-%EC%84%A0-467467366/"
-    design:
-      columns: "2"
+- block: contact
+  id: contact
+  content:
+    title: 연락처
+    email: boywonderof@jbnu.ac.kr
+    phone: "" # 필요시 추가
+    address:
+      street: 567 Baekje-daero
+      city: Jeonju
+      region: Jeollabuk-do
+      postcode: "54896"
+      country: South Korea
+      country_code: KR
+    coordinates:
+      latitude: "35.8468"  # 전북대 좌표
+      longitude: "127.1294"
+    # 오피스 시간 (선택사항)
+    office_hours:
+      - "월요일 - 금요일 09:00 - 18:00"
+    contact_links:
+      - icon: linkedin
+        icon_pack: fab
+        name: LinkedIn
+        link: "https://www.linkedin.com/in/%EC%A7%80%EC%9B%90-%EC%84%A0-467467366/"
+      - icon: github
+        icon_pack: fab
+        name: GitHub
+        link: "https://github.com/oneieo"
+      - icon: instagram
+        icon_pack: fab
+        name: Instagram
+        link: "https://www.instagram.com/oneieo"
+  design:
+    columns: "2"
 ---
