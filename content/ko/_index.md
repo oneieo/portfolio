@@ -17,6 +17,46 @@ sections:
         color: "#FFF3F7"
         text_color_light: false
 
+  - block: slider
+    content:
+      slides:
+        - title: 첫 번째 슬라이드
+          content: 설명 텍스트
+          align: center
+          background:
+            image:
+              filename: slide1.jpg
+              filters:
+                brightness: 0.7
+            position: center
+            color: "#666"
+
+        - title: 두 번째 슬라이드
+          content: 또 다른 설명
+          align: center
+          background:
+            image:
+              filename: slide2.jpg
+              filters:
+                brightness: 0.7
+            position: center
+            color: "#555"
+
+        - title: 세 번째 슬라이드
+          content: 마지막 설명
+          align: center
+          background:
+            image:
+              filename: slide3.jpg
+              filters:
+                brightness: 0.7
+            position: center
+            color: "#444"
+    design:
+      slide_height: "400px"
+      is_fullscreen: false
+      loop: true
+      interval: 3000 # 3초마다 자동 전환
   - block: collection
     content:
       title: 박람회 참가
