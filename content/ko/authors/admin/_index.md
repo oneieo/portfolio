@@ -70,7 +70,7 @@ social:
 ---
 
 전북대학교에서 무역학과 컴퓨터공학을 전공하고 있는 선지원입니다. <br>
-GTEP 사업단 요원으로 활동하며 대한민국 중소기업의 수출 활동을 지원하고 있으며, <br>
+GTEP 사업단 요원으로 활동하며 대한민국 중소기업의 수출 활동을 지원하며, <br>
 프론트엔드 개발자 지망생으로서 여러 프로젝트를 진행하고 있습니다.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Jiwon_Portfolio.pdf" "newtab" >}}포트폴리오 다운받기{{< /staticref >}}
