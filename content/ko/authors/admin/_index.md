@@ -51,6 +51,22 @@ social:
   - icon: instagram
     icon_pack: fab
     link: https://instagram.com/geocushen
+
+profiles:
+  - icon: at-symbol
+    url: "mailto:boywonderof@jbnu.ac.kr"
+    label: E-mail Me
+  # - icon: brands/x
+  #   url: https://x.com/BuildLore
+  - icon: brands/github
+    url: https://github.com/oneieo
+    label: Github
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/%EC%A7%80%EC%9B%90-%EC%84%A0-467467366/
+    label: Linkedin
+  - icon: brands/instagram
+    url: https://www.instagram.com/oneieo
+    label: Instagram
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
