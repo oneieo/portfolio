@@ -16,7 +16,8 @@ sections:
       background:
         color: "#FFEBF2"
         text_color_light: false
-    - block: collection
+
+  - block: collection
     content:
       title: Latest Posts
       filters:
@@ -25,7 +26,7 @@ sections:
       count: 3
     design:
       view: custom-card-1
-      columns: '2'
+      columns: "2"
 
   # 두 번째 섹션 - custom-card-2 사용
   - block: collection
@@ -37,7 +38,7 @@ sections:
       count: 6
     design:
       view: custom-card-2
-      columns: '3'
+      columns: "3"
 
   - block: experience
     content:
