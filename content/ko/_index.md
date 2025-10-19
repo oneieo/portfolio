@@ -30,7 +30,7 @@ sections:
 
   - block: collection
     content:
-      title: Featured Projects
+      title: 프로젝트
       filters:
         folders:
           - project
