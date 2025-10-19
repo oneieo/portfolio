@@ -19,7 +19,7 @@ sections:
 
   - block: collection
     content:
-      title: 경험
+      title: 박람회 참가
       filters:
         folders:
           - exp_gtep

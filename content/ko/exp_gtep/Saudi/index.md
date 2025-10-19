@@ -1,12 +1,11 @@
 ---
-title: IndieNBob - 인디밴드 밥 먹여주는 커뮤니티
-summary: 인디 음악을 사랑하는 사람들을 위한 소셜 플랫폼으로 밴드 정보, 공연 일정, 팬 커뮤니티 기능 제공
+title: BeautyWorld Saudi Arabia 2025
+summary: 뷰티월드 사우디아라비아 2025(25.04.21~23)에 "브이플랫폼" 브랜드 통역 및 스킨케어 제품 마케터로 파견되어 중동 시장 개척 및 무역 실무 경험을 쌓았습니다.
 tags:
-  - React
-  - Next.js
-  - TypeScript
-  - React Query
-  - Tailwind CSS
-date: 2021-07-15
-external_link: https://indie-n-bob.vercel.app/
+  - 해외 박람회 실무
+  - 중동 시장 개척
+  - 비즈니스 통역
+  - 뷰티/화장품 마케팅
+date: 2025-04-21
+external_link: ""
 ---
