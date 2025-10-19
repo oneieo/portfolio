@@ -35,10 +35,10 @@ sections:
       filters:
         folders:
           - project
-      count: 6
+      count: 3
     design:
       view: custom-card-2
-      columns: "3"
+      columns: "2"
 
   - block: experience
     content:
