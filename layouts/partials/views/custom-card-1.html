@@ -2,9 +2,18 @@
 
 <div class="card-simple custom-card-1">
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }} {{
-  with $resource }}
+  if not $resource }} {{ $resource = ($item.Resources.ByType "image") | first }}
+  {{ end }} {{ with $resource }}
   <div class="card-image">
-    <img src="{{ $item.Params.image }}" alt="{{ $item.Title }}" />
+    <a href="{{ $link }}">
+      <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" loading="lazy" />
+    </a>
+  </div>
+  {{ else }}
+  <div class="card-image card-no-image">
+    <a href="{{ $link }}">
+      <div class="placeholder">📷</div>
+    </a>
   </div>
   {{ end }}
 
