@@ -31,6 +31,15 @@ ko:
       - name: 경험
         url: experience/
         weight: 30
+        # 경험 서브 메뉴
+      - name: 경력
+        url: "#experience"
+        parent: 경험
+        weight: 31
+      - name: 학력
+        url: "#education"
+        parent: 경험
+        weight: 32
       - name: 수상
         url: awards/
         weight: 50
