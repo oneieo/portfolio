@@ -30,7 +30,7 @@ marketing:
     baidu: ""
 
 icon:
-  filename: "logo.png"
+  filename: "icon.png"
 
 # Site header
 
@@ -44,7 +44,7 @@ header:
     show_search: true
     highlight_active_link: false
     logo:
-      filename: "logo.png"
+      filename: "icon.png"
 
 footer:
   copyright:
