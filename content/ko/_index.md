@@ -14,7 +14,7 @@ sections:
       username: admin
     design:
       background:
-        color: #FFDCE9
+        color: yellow
         text_color_light: false
 
   - block: experience
