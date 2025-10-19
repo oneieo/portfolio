@@ -44,7 +44,7 @@ header:
     show_search: true
     highlight_active_link: false
     logo:
-      filename: "icon.png"
+      filename: "logo.png"
 
 footer:
   copyright:
