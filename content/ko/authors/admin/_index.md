@@ -54,6 +54,9 @@ social:
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/oneieo
+  - icon: cv
+    icon_pack: ai
+    link: uploads/Jiwon_Portfolio.pdf
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
