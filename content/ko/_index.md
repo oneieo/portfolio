@@ -130,6 +130,8 @@ sections:
     content:
       title: 수상
       username: admin
+      text: |
+        ## 🏆 수상
     design:
       columns: "2"
 
