@@ -56,7 +56,7 @@ sections:
       slide_height: "400px"
       is_fullscreen: false
       loop: true
-      interval: 3000 # 3초마다 자동 전환
+      interval: 2000 # 3초마다 자동 전환
   - block: collection
     content:
       title: 박람회 참가
