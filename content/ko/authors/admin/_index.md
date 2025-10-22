@@ -77,7 +77,7 @@ social:
 
 awards:
   - title: 총장상_성적우수상
-    date: "2022-03-16"
+    date: "2022-03-15"
     awarder: 전북대학교 총장
     icon: trophy
     summary: |
