@@ -33,11 +33,11 @@ ko:
         weight: 30
         # 경험 서브 메뉴
       - name: GTEP 사업단
-        url: "/experience/#gtep"
+        url: "experience/#gtep"
         parent: 경험
         weight: 31
       - name: 웹개발 부트캠프
-        url: "/experience/#bootcamp"
+        url: "experience/#bootcamp"
         parent: 경험
         weight: 32
       - name: 수상
