@@ -25,24 +25,29 @@ ko:
       - name: 소개
         url: "about/"
         weight: 10
+
+      - name: 학력
+        url: "about/#education"
+        parent: 소개
+        weight: 11
+
+      - name: 경력
+        url: "about/#experience"
+        parent: 소개
+        weight: 12
+
       - name: 프로젝트
         url: projects/
         weight: 20
+
       - name: 경험
         url: experience/
         weight: 30
-        # 경험 서브 메뉴
-      - name: GTEP 사업단
-        url: "experience/#gtep"
-        parent: 경험
-        weight: 31
-      - name: 웹개발 부트캠프
-        url: "experience/#bootcamp"
-        parent: 경험
-        weight: 32
+
       - name: 수상
         url: awards/
         weight: 50
+
       - name: 연락처
         url: contact/
         weight: 60
