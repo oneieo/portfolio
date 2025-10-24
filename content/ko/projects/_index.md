@@ -14,6 +14,6 @@ sections:
           - project
       count: 0
     design:
-      view: custom-card-2
+      view: custom-card-1
       columns: 2
 ---
