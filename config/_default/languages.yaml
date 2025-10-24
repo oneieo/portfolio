@@ -23,7 +23,7 @@ ko:
   menu:
     main:
       - name: 소개
-        url: ""
+        url: "about/"
         weight: 10
       - name: 프로젝트
         url: projects/
