@@ -13,7 +13,7 @@ main:
     parent: About
     weight: 11
 
-  - name: Experience
+  - name: Career
     url: "about/#experience"
     parent: About
     weight: 12
