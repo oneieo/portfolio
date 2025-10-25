@@ -4,24 +4,20 @@ type: landing
 
 image:
   filename: featured.jpg
-  caption: "FE 프로젝트 경험"
+  caption: "FE프로젝트 경험"
 
 design:
   spacing: "6rem"
 
 sections:
   - block: collection
-    id: projects
     content:
       title: 프로젝트
       filters:
         folders:
           - project
-      default_button_index: 0
-      buttons:
-        - name: All
-          tag: "*"
+      count: 0
     design:
-      view: showcase
-      columns: "1"
+      view: custom-card-1
+      columns: 2
 ---
