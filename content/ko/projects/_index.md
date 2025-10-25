@@ -18,6 +18,6 @@ sections:
           - project
       count: 0
     design:
-      view: custom-card-1
-      columns: 2
+      view: showcase
+      columns: 1
 ---
