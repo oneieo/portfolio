@@ -3,10 +3,8 @@ title: "프로젝트"
 type: landing
 
 image:
-  caption: "대표 프로젝트"
-  focal_point: "Center"
-  preview_only: false
-  filename: PAi.png
+  filename: featured.jpg
+  caption: "FE 프로젝트 경험"
 
 design:
   spacing: "6rem"

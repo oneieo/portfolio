@@ -21,7 +21,7 @@ sections:
     content:
       slides:
         - title: 글로벌 무역 전문가
-          content: 국경을 넘어 기회를 발굴하고, 한국 기업과 세계를 연결하는 가교가 됩니다
+          content: 국경을 넘어 기회를 발굴하고, 한국 기업과 세계를 연결하는 가교
           align: center
           background:
             image:
@@ -32,7 +32,7 @@ sections:
             color: "#666"
 
         - title: 프론트엔드 개발자
-          content: 사용자 경험을 최우선으로, 혁신적인 웹 솔루션을 설계하고 구현합니다
+          content: 사용자 경험을 최우선으로, 혁신적인 웹 솔루션을 설계하고 구현
           align: center
           background:
             image:
@@ -43,7 +43,7 @@ sections:
             color: "#555"
 
         - title: 무한한 가능성
-          content: 무역의 통찰력과 개발의 창조성으로, 글로벌 디지털 비즈니스의 미래를 만들어갑니다
+          content: 통찰력과 창조성으로, 글로벌 디지털 비즈니스의 미래를 만들어가다
           align: center
           background:
             image:
