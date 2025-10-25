@@ -11,13 +11,17 @@ design:
 
 sections:
   - block: collection
+    id: projects
     content:
       title: 프로젝트
       filters:
         folders:
           - project
-      count: 0
+      default_button_index: 0
+      buttons:
+        - name: All
+          tag: "*"
     design:
       view: showcase
-      columns: 1
+      columns: "1"
 ---
