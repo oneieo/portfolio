@@ -25,7 +25,7 @@ sections:
           align: center
           background:
             image:
-              filename: public-domain-vectors-LlhAZH8rvVY-unsplash.jpg
+              filename: sean-oulashin-KMn4VEeEPR8-unsplash.jpg
               filters:
                 brightness: 0.7
             position: center
@@ -36,49 +36,27 @@ sections:
           align: center
           background:
             image:
-              filename: boitumelo-viS6-ja0dCw-unsplash.jpg
+              filename: jonathan-francisca-Y9FvnY7FU1A-unsplash.jpg
               filters:
                 brightness: 0.7
             position: center
             color: "#555"
 
         - title: 무한한 가능성
-          content: 통찰력과 창조성으로, 글로벌 디지털 비즈니스의 미래를 만들어가다
+          content: 통찰력과 창조성으로, 글로벌 디지털 비즈니스의 미래를 만들다
           align: center
           background:
             image:
-              filename: compare-fibre-9HGPvHThNME-unsplash.jpg
+              filename: javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg
               filters:
                 brightness: 0.7
             position: center
             color: "#444"
     design:
-      slide_height: "400px"
+      slide_height: "300px"
       is_fullscreen: false
       loop: true
-      interval: 2500
-
-  - block: collection
-    content:
-      title: 박람회 참가
-      filters:
-        folders:
-          - exp_gtep
-      count: 3
-    design:
-      view: custom-card-1
-      columns: "2"
-
-  - block: collection
-    content:
-      title: 프로젝트
-      filters:
-        folders:
-          - project
-      count: 3
-    design:
-      view: custom-card-2
-      columns: "2"
+      interval: 3000
 
   - block: collection
     id: projects
@@ -94,6 +72,28 @@ sections:
     design:
       view: showcase
       columns: "1"
+
+  - block: collection
+    content:
+      title: 프로젝트
+      filters:
+        folders:
+          - project
+      count: 3
+    design:
+      view: custom-card-2
+      columns: "2"
+
+  - block: collection
+    content:
+      title: 박람회 참가
+      filters:
+        folders:
+          - exp_gtep
+      count: 3
+    design:
+      view: custom-card-1
+      columns: "2"
 
   - block: experience
     content:
