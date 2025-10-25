@@ -10,12 +10,12 @@ main:
 
   - name: Education
     url: "about/#education"
-    parent: 소개
+    parent: About
     weight: 11
 
   - name: Experience
     url: "about/#experience"
-    parent: 소개
+    parent: About
     weight: 12
 
   - name: Project
