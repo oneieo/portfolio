@@ -80,6 +80,21 @@ sections:
       view: custom-card-2
       columns: "2"
 
+  - block: collection
+    id: projects
+    content:
+      title: 기술스택
+      filters:
+        folders:
+          - skills
+      default_button_index: 0
+      buttons:
+        - name: All
+          tag: "*"
+    design:
+      view: showcase
+      columns: "1"
+
   - block: experience
     content:
       title: 학력
@@ -151,21 +166,6 @@ sections:
             - 제품 프레젠테이션 및 계약 협상 지원
     design:
       columns: "2"
-
-  - block: collection
-    id: projects
-    content:
-      title: 기술스택
-      filters:
-        folders:
-          - skills
-      default_button_index: 0
-      buttons:
-        - name: All
-          tag: "*"
-    design:
-      view: showcase
-      columns: "1"
 
   - block: markdown
     content:
