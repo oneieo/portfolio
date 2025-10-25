@@ -17,9 +17,10 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ""
-    org_name: ""
+    org_name: "전북대"
     description: "전북대 컴퓨터인공지능학과 선지원 포트폴리오 | 프론트엔드 개발자"
     twitter: "oneieo"
+    keywords: "전북대, 전북대학교, 선지원, 컴퓨터인공지능학과, 프론트엔드, 포트폴리오"
   analytics:
     google_analytics: ""
     baidu_tongji: ""
@@ -48,7 +49,7 @@ header:
 
 footer:
   copyright:
-    notice: "© {year} Me. This work is licensed under {license}"
+    notice: "© {year} Jiwon Seon. This work is licensed under {license}"
     license:
       enable: true
       allow_derivatives: false
@@ -74,7 +75,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: "https://github.com/<username>/<repository>"
+    url: "https://github.com/oneieo/portfolio"
     content_dir: content
     branch: main
   avatar:
