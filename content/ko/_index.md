@@ -67,7 +67,7 @@ sections:
       count: 3
     design:
       view: custom-card-1
-      columns: "2"
+      columns: "1"
 
   - block: collection
     content:
@@ -78,7 +78,7 @@ sections:
       count: 3
     design:
       view: custom-card-2
-      columns: "2"
+      columns: "1"
 
   - block: collection
     id: projects
