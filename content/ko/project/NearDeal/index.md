@@ -9,10 +9,6 @@ tags:
   - Tailwind CSS
 date: 2025-09-07
 external_link: https://near-deal.vercel.app/
-
-image:
-  caption: "NearDeal 플랫폼"
-  focal_point: "Smart"
 # sections:
 #   - block: markdown
 #     content:
