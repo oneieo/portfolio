@@ -20,34 +20,34 @@ sections:
   - block: slider
     content:
       slides:
-        - title: 첫 번째 슬라이드
-          content: 설명 텍스트
+        - title: 글로벌 무역 전문가
+          content: 국경을 넘어 기회를 발굴하고, 한국 기업과 세계를 연결하는 가교가 됩니다
           align: center
           background:
             image:
-              filename: unsplash1.jpg
+              filename: public-domain-vectors-LlhAZH8rvVY-unsplash.jpg
               filters:
                 brightness: 0.7
             position: center
             color: "#666"
 
-        - title: 두 번째 슬라이드
-          content: 또 다른 설명
+        - title: 프론트엔드 개발자
+          content: 사용자 경험을 최우선으로, 혁신적인 웹 솔루션을 설계하고 구현합니다
           align: center
           background:
             image:
-              filename: unsplash2.jpg
+              filename: boitumelo-viS6-ja0dCw-unsplash.jpg
               filters:
                 brightness: 0.7
             position: center
             color: "#555"
 
-        - title: 세 번째 슬라이드
-          content: 마지막 설명
+        - title: 무한한 가능성
+          content: 무역의 통찰력과 개발의 창조성으로, 글로벌 디지털 비즈니스의 미래를 만들어갑니다
           align: center
           background:
             image:
-              filename: unsplash3.jpg
+              filename: compare-fibre-9HGPvHThNME-unsplash.jpg
               filters:
                 brightness: 0.7
             position: center
