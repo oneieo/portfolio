@@ -10,7 +10,7 @@
     <div class="card-thumbnail">
       <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" loading="lazy" />
       <div class="card-overlay">
-        <span>더보기 →</span>
+        <span>보기 →</span>
       </div>
     </div>
     {{ end }}
@@ -26,6 +26,7 @@
       <p class="card-description">{{ . | truncate 100 }}</p>
       {{ end }}
 
+      <!-- 날짜 표시 -->
       {{ with $item.Date }}
       <div class="card-date">
         <time datetime="{{ .Format "2006-01-02" }}">
@@ -35,6 +36,7 @@
       </div>
       {{ end }}
 
+      <!-- 태그 표시 -->
       {{ with $item.Params.tags }}
       <div class="card-tags">
         {{ range first 5 . }}
