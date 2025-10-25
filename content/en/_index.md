@@ -10,7 +10,7 @@ sections:
   - block: about.avatar
     id: about
     content:
-      title: Introduce
+      title: Introduction
       username: admin
     design:
       background:
@@ -21,7 +21,7 @@ sections:
     content:
       slides:
         - title: Global Trade Expert
-          content: 국경을 넘어 기회를 발굴하고, 한국 기업과 세계를 연결하는 가교
+          content: Discovering opportunities beyond borders, bridging Korean businesses with the world
           align: center
           background:
             image:
@@ -31,8 +31,8 @@ sections:
             position: center
             color: "#666"
 
-        - title: 프론트엔드 개발자
-          content: 사용자 경험을 최우선으로, 혁신적인 웹 솔루션을 설계하고 구현
+        - title: Frontend Developer
+          content: Designing and implementing innovative web solutions with user experience as top priority
           align: center
           background:
             image:
@@ -42,8 +42,8 @@ sections:
             position: center
             color: "#555"
 
-        - title: 무한한 가능성
-          content: 통찰력과 창조성으로, 글로벌 디지털 비즈니스의 미래를 만들다
+        - title: Infinite Possibilities
+          content: Creating the future of global digital business with insight and creativity
           align: center
           background:
             image:
@@ -61,7 +61,7 @@ sections:
   - block: collection
     id: projects
     content:
-      title: 기술스택
+      title: Tech Stack
       filters:
         folders:
           - skills
@@ -75,7 +75,7 @@ sections:
 
   - block: collection
     content:
-      title: 프로젝트
+      title: Projects
       filters:
         folders:
           - project
@@ -86,7 +86,7 @@ sections:
 
   - block: collection
     content:
-      title: 박람회 참가
+      title: Trade Fair Participation
       filters:
         folders:
           - exp_gtep
@@ -97,73 +97,73 @@ sections:
 
   - block: experience
     content:
-      title: 학력
+      title: Education
       date_format: Jan 2006
       items:
-        - title: ✈️ 무역학 전공
-          company: 전북대학교 경상대학
+        - title: ✈️ International Trade Major
+          company: College of Business Administration, JBNU
           company_url: "https://trade.jbnu.ac.kr/trade/index.do"
-          location: 전주, 대한민국
+          location: Jeonju, South Korea
           date_start: "2021-03-01"
           date_end: ""
           description: |
-            평점: 4.25/4.5
+            GPA: 4.25/4.5
 
-            국제 무역의 이론적 기반과 실무 지식을 습득하고, 글로벌 시장 동향 분석, 무역 협상, 수출입 절차, 국제 마케팅 전략 등을 학습하여 글로벌 비즈니스 전문가로서 성장하고 있습니다.
+            Acquiring theoretical foundations and practical knowledge of international trade, learning global market trend analysis, trade negotiations, import/export procedures, and international marketing strategies to grow as a global business professional.
 
-        - title: 💻 컴퓨터공학 복수전공
-          company: 전북대학교 공과대학
+        - title: 💻 Computer Engineering (Double Major)
+          company: College of Engineering, JBNU
           company_url: "https://csai.jbnu.ac.kr/csai/index.do"
-          location: 전주, 대한민국
+          location: Jeonju, South Korea
           date_start: "2022-09-01"
           date_end: ""
           description: |
-            평점: 4.0/4.5
+            GPA: 4.0/4.5
 
-            컴퓨터 과학의 기초 이론부터 실무 응용까지 학습하며, 프로그래밍, 자료구조, 알고리즘, 데이터베이스, 인공지능 등을 통해 혁신적인 소프트웨어 솔루션을 개발하는 능력을 키우고 있습니다.
+            Learning from fundamental theories to practical applications in computer science, developing the ability to create innovative software solutions through programming, data structures, algorithms, databases, and artificial intelligence.
     design:
       columns: "2"
 
-  # 경력 섹션
+  # Career Section
   - block: experience
     content:
-      title: 경력
+      title: Experience
       date_format: Jan 2006
       items:
-        - title: 💻 프론트엔드 개발자
+        - title: 💻 Frontend Developer
           company: NearDeal
           company_url: ""
           location: ""
           date_start: "2025-09-07"
           date_end: ""
           description: |
-            - React 및 Next.js를 활용한 반응형 사용자 인터페이스 개발
-            - 상태 관리 및 API 연동 구현
-            - 애플리케이션 성능 최적화 및 사용자 경험 개선
+            - Developed responsive user interfaces using React and Next.js
+            - Implemented state management and API integration
+            - Optimized application performance and enhanced user experience
 
-        - title: 👩🏻‍💼 GTEP 요원
-          company: 전북대학교 GTEP 사업단
+        - title: 👩🏻‍💼 GTEP Agent
+          company: JBNU GTEP Business Group
           company_url: "https://jbnugtep.com/"
-          location: 전주, 대한민국
+          location: Jeonju, South Korea
           date_start: "2024-12-24"
           date_end: "2025-12-31"
           description: |
-            - 대한민국 중소기업의 글로벌 수출 활동 지원 및 무역 상담
-            - 해외 바이어 발굴 및 매칭, 수출 시장 조사 및 분석
-            - 무역 서류 작성 지원 및 수출입 절차 안내
-            - 글로벌 비즈니스 네트워킹 행사 기획 및 운영 지원
+            - Supported global export activities and trade consulting for Korean SMEs
+            - Identified and matched overseas buyers, conducted export market research and analysis
+            - Assisted with trade documentation and import/export procedures
+            - Planned and supported global business networking events
 
-        - title: 📢 통역 및 수출마케터
+        - title: 📢 Interpreter & Export Marketer
           company: BeautyWorld Saudi Arabia 2025
           company_url: ""
-          location: 사우디아라비아
+          location: Saudi Arabia
           date_start: "2025-04-21"
           date_end: "2025-04-23"
           description: |
-            - 한국 화장품 기업의 사우디아라비아 시장 진출 지원
-            - 현장 비즈니스 통역 및 바이어 상담 지원
-            - 수출 마케팅 전략 수립 및 현지 바이어 발굴
-            - 제품 프레젠테이션 및 계약 협상 지원
+            - Supported Korean cosmetics companies' market entry into Saudi Arabia
+            - Provided on-site business interpretation and buyer consultation support
+            - Developed export marketing strategies and identified local buyers
+            - Assisted with product presentations and contract negotiations
     design:
       columns: "2"
 
@@ -171,11 +171,11 @@ sections:
     content:
       title: ""
       text: |
-        # 수상
+        # Awards
 
   - block: awards
     content:
-      title: 수상
+      title: Awards
       username: admin
     design:
       columns: "2"
@@ -183,17 +183,17 @@ sections:
   - block: contact
     id: contact
     content:
-      title: 연락처
+      title: Contact
       subtitle: ""
       text: ""
       email: boywonderof@jbnu.ac.kr
       phone: ""
       address:
-        street: 덕진구 백제대로 567
-        city: 전주시
-        region: 전북특별자치도
+        street: 567 Baekje-daero, Deokjin-gu
+        city: Jeonju-si
+        region: Jeonbuk State
         postcode: "54896"
-        country: 대한민국
+        country: South Korea
         country_code: KR
       coordinates:
         latitude: "35.8468"
