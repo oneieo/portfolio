@@ -15,8 +15,8 @@ sections:
           - exp_gtep
       count: 3
     design:
-      view: custom-card-1
-      columns: "2"
+      view: showcase
+      columns: "1"
 
   - block: experience
     content:
