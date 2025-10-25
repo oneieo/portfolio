@@ -6,7 +6,7 @@ title: 선지원
 superuser: true
 
 # Role/position
-role: 대학생
+role: 전북대 학생
 
 summary: 전북대학교 무역학과 컴퓨터공학 전공 선지원
 
