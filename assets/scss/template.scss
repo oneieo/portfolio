@@ -19,10 +19,6 @@ body {
   background-color: #ffe0eb;
 }
 
-.page-header {
-  background-color: #ffe0eb;
-}
-
 .dark .page-footer {
   background-color: rgb(26, 32, 44);
 }
@@ -59,13 +55,23 @@ ul.network-icon .big-icon {
   font-size: 1.5rem;
 }
 
+.portrait-title h3 {
+  color: rgba(31, 31, 31, 0.9);
+  font-weight: bold;
+}
+
+.portrait-title h2 {
+  color: #656565;
+  font-weight: bold;
+}
+
 .dark .portrait-title h3 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(31, 31, 31, 0.9);
   font-weight: bold;
 }
 
 .dark .portrait-title h2 {
-  color: #ffebf2;
+  color: #656565;
   font-weight: bold;
 }
 
