@@ -155,10 +155,10 @@ sections:
   - block: collection
     id: projects
     content:
-      title: 프로젝트
+      title: 기술스택
       filters:
         folders:
-          - project
+          - skills
       default_button_index: 0
       buttons:
         - name: All
