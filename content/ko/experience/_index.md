@@ -15,7 +15,7 @@ sections:
         - title: 프론트엔드 개발자
           company: NearDeal
           company_url: ""
-          company_logo: "🍀"
+          company_logo: 🍀
           location: ""
           date_start: "2025-09-07"
           date_end: ""
@@ -27,7 +27,7 @@ sections:
         - title: GTEP 요원
           company: 전북대학교 GTEP 사업단
           company_url: "https://jbnugtep.com/"
-          company_logo: ""
+          company_logo: 🛳️
           location: 전주, 대한민국
           date_start: "2024-12-24"
           date_end: "2025-12-31"
@@ -39,8 +39,8 @@ sections:
 
         - title: 통역 및 수출마케터
           company: BeautyWorld Saudi Arabia 2025
-          company_url: ""
-          company_logo: ""
+          company_url: "V.Platform"
+          company_logo: ✌🏻
           location: 사우디아라비아
           date_start: "2025-04-21"
           date_end: "2025-04-23"
@@ -53,7 +53,7 @@ sections:
         - title: 프론트엔드 엔지니어 부트캠프 (React 4기)
           company: 스파르타코딩클럽
           company_url: "https://spartacodingclub.kr/"
-          company_logo: ""
+          company_logo: 🥊
           location: 온라인
           date_start: "2024-02-14"
           date_end: "2024-08-31"
