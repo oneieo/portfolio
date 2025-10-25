@@ -7,12 +7,23 @@ type: landing
 date_format: Jan 2006
 
 sections:
+  - block: collection
+    content:
+      title: 인상깊었던 박람회
+      filters:
+        folders:
+          - exp_gtep
+      count: 3
+    design:
+      view: custom-card-1
+      columns: "2"
+
   - block: experience
     content:
-      title: 경험
+      title: 경험 클립
 
       items:
-        - title: 프론트엔드 개발자
+        - title: 💻 프론트엔드 개발자
           company: NearDeal
           company_url: ""
           company_logo: ""
@@ -24,7 +35,7 @@ sections:
             - 상태 관리 및 API 연동 구현
             - 애플리케이션 성능 최적화 및 사용자 경험 개선
 
-        - title: 프론트엔드 엔지니어 부트캠프 (React 4기)
+        - title: 🥊 프론트엔드 엔지니어 부트캠프 (React 4기)
           company: 스파르타코딩클럽
           company_url: "https://spartacodingclub.kr/"
           company_logo: ""
@@ -38,7 +49,7 @@ sections:
             - **협업 도구**: Git/GitHub, Figma, Notion, Slack
             - **성과**: 최종 프로젝트 우수상 수상, 동료 평가 상위 10%
 
-        - title: 통역 및 수출마케터
+        - title: 📢 통역 및 수출마케터
           company: BeautyWorld Saudi Arabia 2025
           company_url: "V.Platform"
           company_logo: ""
@@ -51,7 +62,7 @@ sections:
             - 수출 마케팅 전략 수립 및 현지 바이어 발굴
             - 제품 프레젠테이션 및 계약 협상 지원
 
-        - title: GTEP 요원
+        - title: 👩🏻‍💼 GTEP 요원
           company: 전북대학교 GTEP 사업단
           company_url: "https://jbnugtep.com/"
           company_logo: ""
