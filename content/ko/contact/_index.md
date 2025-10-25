@@ -1,15 +1,34 @@
 ---
 title: 방명록
-summary: 메시지를 남겨주세요
+type: landing
 
-external_link: ""
+sections:
+  - block: contact
+    content:
+      title: 연락하기
+      text: |-
+        궁금한 점이나 협업 제안이 있으시면 편하게 연락 주세요! 😊
 
-contact:
-  autolink: true
-  form:
-    provider: netlify
-    netlify:
-      captcha: false
+        **Email**: [boywonderof@jbnu.ac.kr](mailto:boywonderof@jbnu.ac.kr)  
+        **GitHub**: [@oneieo](https://github.com/oneieo)
+
+      email: your@email.com
+      phone:
+      address:
+        street: 덕진구
+        city: 전주시
+        region: 전북특별자치도
+        postcode:
+        country: 대한민국
+        country_code: KR
+
+      autolink: true
+      form:
+        provider: netlify
+        netlify:
+          captcha: true
+    design:
+      columns: "1"
 ---
 
 ## 💬 함께 이야기 나눠요
