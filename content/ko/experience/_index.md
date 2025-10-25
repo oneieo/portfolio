@@ -2,14 +2,12 @@
 title: 경험
 type: landing
 
-# Date format for experience
-#   Refer to https://docs.hugoblox.com/customization/#date-format
 date_format: Jan 2006
 
 sections:
   - block: collection
     content:
-      title: 인상깊었던 박람회
+      title: ✌🏻 인상깊었던 박람회
       filters:
         folders:
           - exp_gtep
@@ -20,7 +18,7 @@ sections:
 
   - block: experience
     content:
-      title: 경험 클립
+      title: 🗂️ 경험 모아보기
 
       items:
         - title: 💻 프론트엔드 개발자

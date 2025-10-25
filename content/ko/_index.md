@@ -100,7 +100,7 @@ sections:
       title: 학력
       date_format: Jan 2006
       items:
-        - title: 무역학 전공
+        - title: ✈️ 무역학 전공
           company: 전북대학교 경상대학
           company_url: "https://trade.jbnu.ac.kr/trade/index.do"
           location: 전주, 대한민국
@@ -111,7 +111,7 @@ sections:
 
             국제 무역의 이론적 기반과 실무 지식을 습득하고, 글로벌 시장 동향 분석, 무역 협상, 수출입 절차, 국제 마케팅 전략 등을 학습하여 글로벌 비즈니스 전문가로서 성장하고 있습니다.
 
-        - title: 컴퓨터공학 복수전공
+        - title: 💻 컴퓨터공학 복수전공
           company: 전북대학교 공과대학
           company_url: "https://csai.jbnu.ac.kr/csai/index.do"
           location: 전주, 대한민국
@@ -130,7 +130,7 @@ sections:
       title: 경력
       date_format: Jan 2006
       items:
-        - title: 프론트엔드 개발자
+        - title: 💻 프론트엔드 개발자
           company: NearDeal
           company_url: ""
           location: ""
@@ -141,7 +141,7 @@ sections:
             - 상태 관리 및 API 연동 구현
             - 애플리케이션 성능 최적화 및 사용자 경험 개선
 
-        - title: GTEP 요원
+        - title: 👩🏻‍💼 GTEP 요원
           company: 전북대학교 GTEP 사업단
           company_url: "https://jbnugtep.com/"
           location: 전주, 대한민국
@@ -153,7 +153,7 @@ sections:
             - 무역 서류 작성 지원 및 수출입 절차 안내
             - 글로벌 비즈니스 네트워킹 행사 기획 및 운영 지원
 
-        - title: 통역 및 수출마케터
+        - title: 📢 통역 및 수출마케터
           company: BeautyWorld Saudi Arabia 2025
           company_url: ""
           location: 사우디아라비아
@@ -171,7 +171,7 @@ sections:
     content:
       title: ""
       text: |
-        # 🏆 수상
+        # 수상
 
   - block: awards
     content:
