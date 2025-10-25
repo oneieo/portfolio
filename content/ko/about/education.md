@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 
 experience:
-  - title: 무역학 전공
+  - title: ✈️ 무역학 전공
     company: 전북대학교 경상대학
     company_url: "https://trade.jbnu.ac.kr/trade/index.do"
     location: 전주, 대한민국
@@ -34,7 +34,7 @@ experience:
 
       국제 무역의 이론적 기반과 실무 지식을 습득하고, 글로벌 시장 동향 분석, 무역 협상, 수출입 절차, 국제 마케팅 전략 등을 학습하여 글로벌 비즈니스 전문가로서 성장하고 있습니다.
 
-  - title: 컴퓨터공학 복수전공
+  - title: 💻 컴퓨터공학 복수전공
     company: 전북대학교 공과대학
     company_url: "https://csai.jbnu.ac.kr/csai/index.do"
     location: 전주, 대한민국

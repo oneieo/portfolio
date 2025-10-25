@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 
 experience:
-  - title: 프론트엔드 개발자
+  - title: 🍀 프론트엔드 개발자
     company: NearDeal
     company_url: ""
     location: ""
@@ -34,7 +34,7 @@ experience:
       - 상태 관리 및 API 연동 구현
       - 애플리케이션 성능 최적화 및 사용자 경험 개선
 
-  - title: GTEP 요원
+  - title: 👩🏻‍💼 GTEP 요원
     company: 전북대학교 GTEP 사업단
     company_url: "https://jbnugtep.com/"
     location: 전주, 대한민국
@@ -46,7 +46,7 @@ experience:
       - 무역 서류 작성 지원 및 수출입 절차 안내
       - 글로벌 비즈니스 네트워킹 행사 기획 및 운영 지원
 
-  - title: 통역 및 수출마케터
+  - title: 📢 통역 및 수출마케터
     company: BeautyWorld Saudi Arabia 2025
     company_url: ""
     location: 사우디아라비아
