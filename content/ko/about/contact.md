@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 50
 
-title: 메세지 남기기
+title: 방명록
 subtitle:
 
 content:
