@@ -12,7 +12,7 @@ design:
 sections:
   - block: accomplishments
     content:
-      title: 교내외 수상경험
+      title: 😹 교내외 수상경험
       subtitle: ""
       text: ""
       date_format: Jan 2006
