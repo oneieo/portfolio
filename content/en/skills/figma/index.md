@@ -1,10 +1,10 @@
 ---
 title: Figma
-summary: 웹 기반의 UX/UI 디자인 및 프로토타이핑 툴로, 실시간 협업 기능에 특화되어 디자이너와 개발자 간의 원활한 소통을 지원
+summary: A web-based UX/UI design and prototyping tool specialized in real-time collaboration features, supporting seamless communication between designers and developers
 tags:
-  - UX/UI 디자인
-  - 프로토타이핑
-  - 실시간 공동 편집
-  - 웹 기반 플랫폼
-  - 개발자 핸드오프
+  - UX/UI Design
+  - Prototyping
+  - Real-time Collaborative Editing
+  - Web-based Platform
+  - Developer Handoff
 ---
