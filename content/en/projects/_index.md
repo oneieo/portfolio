@@ -1,10 +1,10 @@
 ---
-title: "프로젝트"
+title: "Projects"
 type: landing
 
 image:
   filename: featured.jpg
-  caption: "FE프로젝트 경험"
+  caption: "FE Project experiences"
 
 design:
   spacing: "6rem"
@@ -12,7 +12,7 @@ design:
 sections:
   - block: collection
     content:
-      title: 프로젝트
+      title: Projects
       filters:
         folders:
           - project

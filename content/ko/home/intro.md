@@ -18,7 +18,6 @@ author: admin
 #  css_class: fullscreen
 ---
 
-👋 Hi, there! I'm **Alice**, a machine learning researcher at Netflix.
-{style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
-
-## Check out my [resumé](/about/) and portfolio below 😍
+전북대학교에서 무역학과 컴퓨터공학을 전공하고 있는 선지원입니다. <br>
+GTEP 사업단 요원으로 활동하며 대한민국 중소기업의 수출 활동을 지원하며, <br>
+프론트엔드 개발자 지망생으로서 여러 프로젝트를 진행하고 있습니다.
