@@ -56,7 +56,8 @@ sections:
       slide_height: "400px"
       is_fullscreen: false
       loop: true
-      interval: 2000
+      interval: 2500
+
   - block: collection
     content:
       title: 박람회 참가
