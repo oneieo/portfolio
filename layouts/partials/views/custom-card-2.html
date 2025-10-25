@@ -25,25 +25,6 @@
       {{ with $item.Params.summary }}
       <p class="card-description">{{ . | truncate 100 }}</p>
       {{ end }}
-
-      <!-- 날짜 표시 -->
-      {{ with $item.Date }}
-      <div class="card-date">
-        <time datetime="{{ .Format "2006-01-02" }}">
-          {{ .Format "2006.01" }}{{ if $item.Params.date_end }} - {{
-          $item.Params.date_end | time.Format "2006.01" }}{{ else }} -{{ end }}
-        </time>
-      </div>
-      {{ end }}
-
-      <!-- 태그 표시 -->
-      {{ with $item.Params.tags }}
-      <div class="card-tags">
-        {{ range first 5 . }}
-        <span class="card-tag">{{ . }}</span>
-        {{ end }}
-      </div>
-      {{ end }}
     </div>
   </a>
 </div>
