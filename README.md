@@ -31,9 +31,8 @@ AI 챗봇 메이트와 함께하는 일정관리 서비스 및 자동 일기 작
 
 **Frontend:** React, Next.js, TypeScript, Tailwind CSS  
 **상태 관리:** Zustand, Redux, React Query  
-**Backend:** Spring Boot, Supabase  
-**Database:** MySQL, PostgreSQL  
-**도구:** Git/GitHub, Figma, Notion
+**Database:** MySQL  
+**협업 툴:** Git/GitHub, Figma, Notion
 
 ## 📬 연락처
 
