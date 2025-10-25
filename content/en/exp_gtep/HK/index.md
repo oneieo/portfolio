@@ -1,11 +1,11 @@
 ---
 title: HKTDC Food Expo 2025
-summary: 홍콩 국제 푸드 엑스포(25.08.14~16)에 '홍시궁' 브랜드 통역 및 홍시 찹쌀떡 마케터로 파견되어 해외 비즈니스 및 무역 실무 경험을 쌓았습니다.
+summary: Dispatched as an interpreter and marketer for 'Hongsigung' dried persimmon glutinous rice cake at the Hong Kong International Food Expo (Aug 14-16, 2025), gaining hands-on experience in international business and trade operations.
 tags:
-  - 해외 파견 실무
-  - 국제 무역 박람회
-  - 비즈니스 통역
-  - 홍보 및 판매 실무
+  - International Business Field Work
+  - International Trade Fair
+  - Business Interpretation
+  - Marketing & Sales Operations
 date: 2025-08-14
 external_link: ""
 ---

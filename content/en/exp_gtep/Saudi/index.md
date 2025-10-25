@@ -1,11 +1,11 @@
 ---
 title: BeautyWorld Saudi Arabia 2025
-summary: 뷰티월드 사우디아라비아 2025(25.04.21~23)에 '브이플랫폼' 브랜드 통역 및 스킨케어 제품 마케터로 파견되어 중동 시장 개척 및 무역 실무 경험을 쌓았습니다.
+summary: Dispatched as an interpreter and skincare product marketer for 'V Platform' brand at BeautyWorld Saudi Arabia 2025 (Apr 21-23, 2025), gaining experience in Middle East market development and trade operations.
 tags:
-  - 해외 박람회 실무
-  - 중동 시장 개척
-  - 비즈니스 통역
-  - 뷰티/화장품 마케팅
+  - International Trade Fair Operations
+  - Middle East Market Development
+  - Business Interpretation
+  - Beauty/Cosmetics Marketing
 date: 2025-04-21
 external_link: ""
 ---

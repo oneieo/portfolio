@@ -1,11 +1,11 @@
 ---
 title: OliveYoung Festa 2025
-summary: 올리브영 페스타 2025 '라이브오랄스' 부스에 통역 및 마케터로 파견되어 국내 대형 유통 채널 현장 마케팅 및 브랜드 홍보 실무 경험을 쌓았습니다.
+summary: Dispatched as an interpreter and marketer for the 'Live Orals' booth at OliveYoung Festa 2025, gaining practical experience in on-site marketing and brand promotion within Korea's major retail channel.
 tags:
-  - 국내 대형 박람회 실무
-  - 구강케어/뷰티 마케팅
-  - 현장 홍보 실무
-  - 비즈니스 통역
-date: 2025-05-25 # (올리브영 페스타가 보통 하반기에 열리므로 임의의 날짜로 수정)
+  - Domestic Trade Fair Operations
+  - Oral Care/Beauty Marketing
+  - On-site Promotional Operations
+  - Business Interpretation
+date: 2025-05-25
 external_link: ""
 ---

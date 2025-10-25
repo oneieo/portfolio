@@ -1,5 +1,5 @@
 ---
-title: 방명록
+title: Guestbook
 type: landing
 
 sections:
@@ -7,15 +7,15 @@ sections:
     content:
       title: 💌
       text: |-
-        안녕하세요!
+        Hello!
 
-        궁금한 점 혹은 가벼운 인사라도 환영합니다!  
-        아래 양식을 통해 편하게 연락 주세요.
+        Questions or just a friendly hello are both welcome!  
+        Feel free to reach out through the form below.
 
         **Email**: [boywonderof@jbnu.ac.kr](mailto:boywonderof@jbnu.ac.kr)  
         **GitHub**: [@oneieo](https://github.com/oneieo)
         **Instagram**: [@oneieo](https://www.instagram.com/oneieo)
-        **LinkedIn**: [프로필 링크](https://www.linkedin.com/in/%EC%A7%80%EC%9B%90-%EC%84%A0-467467366/)
+        **LinkedIn**: [Profile Link](https://www.linkedin.com/in/%EC%A7%80%EC%9B%90-%EC%84%A0-467467366/)
 
       autolink: true
       form:
