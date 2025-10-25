@@ -37,13 +37,33 @@ image:
 - 매출 통계 시각화 (일/주/월 단위)
 - 푸시 알림을 통한 이벤트 홍보
 
+### 🏫 학교 및 단대 제휴
+
+- 단대별 제휴업체 정보 페이지 제공
+- 교내 단체 및 동아리와의 협업 기능
+
 ## 🖥️ 기술 스택
 
-| 구분         | 기술                                                  |
-| ------------ | ----------------------------------------------------- |
-| **Frontend** | React, TypeScript, Tailwind CSS, Zustand, React Query |
-| **Backend**  | Spring Boot (Java 21), JPA                            |
-| **Database** | MySQL                                                 |
+| 구분                | 기술                                                  |
+| ------------------- | ----------------------------------------------------- |
+| **Frontend**        | React, TypeScript, Tailwind CSS, Zustand, React Query |
+| **Backend**         | Spring Boot (Java 21), JPA                            |
+| **Database**        | MySQL                                                 |
+| **Deployment**      | Vercel (Frontend), AWS EC2 (Backend)                  |
+| **Version Control** | GitHub Actions, Docker                                |
+
+## 🚀 프로젝트 특징
+
+- React 기반의 SPA 구조로 빠른 사용자 경험 제공
+- Spring Boot REST API 기반으로 클린한 백엔드 구조
+- MySQL + JPA로 효율적인 데이터 관리
+- Vercel 배포 자동화로 프론트엔드 변경 즉시 반영
+
+## 📍 향후 계획
+
+- AI 기반 쿠폰 추천 알고리즘 도입
+- 소상공인 마케팅 자동화 도구 개발
+- 전북대학교 단대별 제휴 확대 및 운영 자동화
 
 ## 🔗 링크
 
